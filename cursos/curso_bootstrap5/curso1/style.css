@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+}
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.carousel-inner {
+    max-height: 39rem;
+}
+
+#servicios img {
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
+
+#sec-equipo img {
+
+    border-radius: 20%;
+}
+
+
+
+/*=========== MEDIA QUERIS PANTALLA ANCHA ==============*/
+
+
+
+
+
+
+/*=========== MEDIA QUERIS PANTALLA SM ==============*/
+
+@media (max-width:768px) {
+    #intro {
+        min-width: 90% !important;
+        max-width: 90% !important;
+    }
+
+    #equipo {
+        width: 75% !important;
+        padding: 10px 20px;
+    }
+
+    #equipo p {
+        padding-top: 20px;
+    }
+
+    #sec-equipo img {
+        width: 70%;
+    }
+}
+
+
+@media (max-width:2000px) {
+    #sec-equipo img {
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+/*=========== MEDIA QUERIS PANTALLA EXTRA-SM ==============*/

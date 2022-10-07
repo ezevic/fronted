@@ -1,0 +1,124 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+/* Header */
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#header {
+    background: url('images/torshov.jpg');
+    background-size: cover;
+    padding: 5rem;
+}
+
+#title {
+    font-size: 1.5rem;
+    color: white;
+    width: 180px;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+    background-color: #457B9D;
+    padding: 0.2rem 0.1rem;
+}
+
+div h2 {
+    margin: 10px auto;
+    font-size: 0.8rem;
+    background-color: #1D3557;
+    color: white;
+    width: 300px;
+    border-radius: 0.2rem;
+    padding: 0.2rem 0.2rem;
+}
+
+
+/* actividades del centro */
+
+.medio-sec {
+    background-color: #F4EDEA;
+    padding: 4px;
+    color: #1D3557;
+    font-weight: 900;
+}
+
+.medio {
+    margin-top: 40px;
+    display:  flex;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.img-centro {
+    border-radius: 100%;
+    width: 5rem;
+}
+
+.activitie {
+    width: 200px;
+    margin: 0 auto;
+    
+}
+
+.medio-text {
+    width: 150px;
+    margin: 10px auto;
+}
+
+/* Guia final */
+
+
+section {
+    padding: 40px;
+}
+
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 15px 0 20px 0;
+    display: flex;
+    justify-content: space-around;
+    color: #1D3557;
+    background-color: #a8dadc;
+    border-bottom: 0.3rem solid #1D3557;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.text-card {
+    justify-content: center;
+    width: 170px;
+}
+
+div h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+section div p {
+    font-style: italic;
+    font-size: 0.9rem;
+    font-weight: 450;
+}
+
+section div img {
+    width: 140px;
+}

@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+.img-blog {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    border: 10px solid #A2AD91;
+    border-radius: 20px;
+}
+
+body {
+    font-family: sans-serif;
+    background: #DBB4AD;
+}
+
+article {
+    width: 500px;
+    border: 2px solid black;
+    padding: 3px 5px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background: #FFE3DC;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    margin-right: 50px;
+}
+
+a:link {
+    color: aqua;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: rebeccapurple;
+}
+
+a:active {
+    color: salmon;
+}
+

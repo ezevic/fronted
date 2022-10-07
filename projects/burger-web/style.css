@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* INICIO CONTENEDOR 1 */
+
+body {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contenedor-1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/banner_1.png");
+    background-position: center;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    overflow: hidden;
+    background: linear-gradient(180deg, rgba(0,0,0), rgba(0,0,0,0));
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 5%;
+}
+
+.navbar {
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 5%;
+}
+
+.nav-link {
+    color: #fff;
+    padding: 70px 1%;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    background-color: #f64b3c;
+}
+
+.banner {
+    color: white;
+    width: 100%;
+    height: calc(100vh - 120px);
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.banner__texto {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+}
+
+.banner__texto h1 {
+    font-size: 350%;
+}
+
+.banner__texto p {
+    font-size: 150%;
+    margin: 20px 0 70px 0;
+}
+
+.banner__texto a {
+    background-color: #f64b3c;
+    padding: 20px 0;
+    width: 50%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.banner__texto a:hover {
+    background-color: #fff;
+    color: #f64b3c;
+}
+
+/* FIN CONTENEDOR 1 */
+
+/* INICIO CONTENEDOR 2 */
+
+.contenedor-2 {
+    width: 100%;
+    height: 80vh;
+    background-color: #f6eedf;
+}
+
+.contenedor-2__texto {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    color: #f64b3c;
+}
+
+.contenedor-2__texto h2 {
+    font-size: 32px;
+    padding: 3rem 0 0;
+}
+
+.contenedor-2__texto p {
+    font-size: 18;
+    padding: 3rem 5rem;
+}
+
+.contenedor-2-staff {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    justify-content: space-between;
+    color: #f64b3c;
+}
+
+.contenedor-2-staff__persona {
+    text-align: center;
+}
+
+.contenedor-2-staff__persona img {
+    width: 80%;
+    border-radius: 100%;
+}
+
+.contenedor-2-staff__persona h3 {
+    padding: 10px;
+}
+
+.contenedor-2-staff__persona p {
+    padding: 5px 0;
+}
+
+/* FIN CONTENEDOR 2 */
+
+/* INICIO CONTENEDOR 3 */
+
+.contenedor-3 {
+    width: 100%;
+    height: 80vh;
+    background-color: #f64b3c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 50px 0;
+}
+
+.imagen-burguer {
+    width: 35%;
+}
+
+.contenedor-3__texto {
+    width: 35%;
+    padding: 40px 40px 60px;
+}
+
+.contenedor-3__texto h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.contenedor-3__texto p {
+    margin: 40px 0;
+}
+
+
+.contenedor-3__texto a {
+    background-color: #fff;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #f64b3c;
+    font-size: 15px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.contenedor-3__texto a:hover {
+    background-color: #111;
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+/* FIN CONTENEDOR 3 */
+
+/* INICIO CONTENEDOR 4 */
+
+.contenedor-4 {
+    width: 100%;
+    height: 80vh;
+    background-color: #f6eedf;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #f64b3c;
+    padding: 50px 0;
+}
+
+.imagen-burguer {
+    width: 35%;
+}
+
+.contenedor-4__texto {
+    width: 35%;
+    padding: 40px 40px 60px;
+}
+
+.contenedor-4__texto h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.contenedor-4__texto p {
+    margin: 40px 0;
+}
+
+
+.contenedor-4__texto a {
+    background-color: #f64b3c;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.contenedor-4__texto a:hover {
+    background-color: #111;
+    color: #fff;
+    transition: 0.3s;
+}
+
+
+/* FIN CONTENEDOR 4 */
+
+
+/* INICIO CONTENEDOR 5 */
+
+
+
+
+
+/* FIN CONTENEDOR 5 */
+
+
+/* INICIO CONTENEDOR 6 */
+
+
+
+
+/* FIN CONTENEDOR 6 */
