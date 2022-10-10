@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+
+<body>
+    <div class="container w-75 mt-5 rounded shadow" id="contenedor">
+        <div class="row align-items-stretch">
+            <div class="col d-none d-lg-block col-md-5 col-lg-5 col-xl-6 bg-img rounded-start">
+
+            </div>
+            <div class="col bg-white rounded-end px-5 py-3">
+                <div class="text-end">
+                    <img src="https://uploads.vw-mms.de/system/production/images/vwn/030/145/images/7a0d84d3b718c9a621100e43e581278433114c82/DB2019AL01950_web_1600.jpg?1649155356"
+                        alt="" width="48">
+                </div>
+                <h2 class="fw-bold text-center py-5">Bienvenido</h2>
+
+                <!-- LOGIN -->
+
+                <form action="#">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Correo Electronico</label>
+                        <input type="email" name="email" id="email" class="form-control">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" name="password" id="password" class="form-control">
+                    </div>
+                    <div class="mb-4 form-check">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="form-check-label">Mantenerme conectado</label>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary">Login</button>
+                    </div>
+                    <div class="my-3 d-flex flex-column">
+                        <span>No tienes cuenta? <a href="#">Registrate</a></span>
+                        <span><a href="#">Recuperar password</a></span>
+                    </div>
+                </form>
+
+                <!-- Login con redes sociales -->
+
+                <div class="container-sm w-100 my-5">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            Log In with
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <button class="btn btn-outline-primary w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <img src="static/img/facebook.png" width="32" alt="">
+                                    </div>
+                                    <div class="col-10 text-center">
+                                        Fecebook
+                                    </div>
+                                </div>
+                            </button>
+
+                        </div>
+
+                        <div class="col-12 col-sm-6">
+                            <button class="btn btn-outline-primary w-100 my-1">
+                                <div class="row align-items-center">
+                                    <div class="col-2">
+                                        <img src="static/img/google.png" width="32" alt="">
+                                    </div>
+                                    <div class="col-10 text-center">
+                                        Google
+                                    </div>
+                                </div>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="static/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
