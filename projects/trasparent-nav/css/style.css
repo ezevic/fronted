@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+.banner-image {
+    background: url('banner-img.jpg');
+    background-size: cover;
+}
+
+#navbarSupportedContent {
+    
+}
+
+.navbar-brand {
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+    transition: 300ms;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+
+
+/* Google maps */
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
